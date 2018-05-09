@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.imedtrainer.QuizActivity"
+    android:id="@+id/mycontainer"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.85">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="0.98"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/image4"
+                android:id="@+id/imageQuestion"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15">
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_width="match_parent">
+
+        <Button
+            android:id="@+id/normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Normal"
+            android:layout_margin="@dimen/margin_fab"
+            android:layout_gravity="bottom"/>
+
+        <Button
+            android:id="@+id/abnormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abnormal"
+            android:layout_margin="@dimen/margin_fab"
+            android:layout_gravity="bottom|right"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_margin="@dimen/margin_fab"
+            android:src="@drawable/hinticonblue"
+            app:backgroundTint="@color/iconBlue"
+            app:fabSize="normal"/>
+
+        </android.support.design.widget.CoordinatorLayout>
+    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<ImageButton-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="473dp"-->
+            <!--android:layout_marginBottom="5dp"-->
+            <!--android:layout_marginLeft="2dp"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:layout_marginTop="0dp"-->
+            <!--android:layout_weight="0.98"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--android:src="@mipmap/image4"-->
+            <!--android:id="@+id/imageQuestion"/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<android.support.design.widget.CoordinatorLayout-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/normal"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Normal"-->
+            <!--android:layout_margin="@dimen/margin_fab"-->
+            <!--android:layout_gravity="bottom"/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/abnormal"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Abnormal"-->
+            <!--android:layout_margin="@dimen/margin_fab"-->
+            <!--android:layout_gravity="bottom|right"/>-->
+
+        <!--<android.support.design.widget.FloatingActionButton-->
+            <!--android:id="@+id/fabAdd"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="bottom|center"-->
+            <!--android:layout_margin="@dimen/margin_fab"-->
+            <!--android:src="@drawable/hinticonblue"-->
+            <!--app:backgroundTint="@color/iconBlue"-->
+            <!--app:fabSize="normal"/>-->
+
+    <!--</android.support.design.widget.CoordinatorLayout>-->
+    <!--<ImageView-->
+        <!--android:id="@+id/expanded_image"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:visibility="invisible"-->
+        <!--android:contentDescription="detailimage" />-->
+</LinearLayout>

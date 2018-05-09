@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Resource Strings -->
+    <string name="link1"><a href="https://elevateradiology.herokuapp.com/">Resource 1</a></string>
+    <string name="resource1"> <b>Resource 1</b> - This website is developed by Dr. Nascene, who is a radiologist at the University of Minnesota, to teach medical students many aspects of radiology. It also provide web-based quizzes.</string>
+
+    <string name="link2"><a href="http://learningradiology.com/index.htm">Resource 2</a></string>
+    <string name="resource2"><b>Resource 2</b> - This website includes an online textbook, video lectures, cases, and quizzes.</string>
+
+    <string name="link3"><a href="http://www.benwhite.com/medicine/learning-radiology-for-non-radiologists/">Resource 3</a></string>
+    <string name="resource3"><b>Resource 3</b> - A blog-like article that aims to teach medical students and non-radiologists medical imaging. It provides general texts, suggestions and other resources.</string>
+
+    <string name="link4"><a href="https://www.med-ed.virginia.edu/courses/rad/">Resource 4</a></string>
+    <string name="resource4"><b>Resource 4</b> - An online tutorial. It talks about images of various parts of the body.</string>
+
+    <string name="link5"><a href="https://www.navigatingradiology.com/medical-students">Resource 5</a></string>
+    <string name="resource5"><b>Resource 5</b> - This website has a general guide for beginners/medical students.</string>
+
+
+    <!-- About Strings -->
+    <string name="step1"> <b>Step 1:</b> Select the subject.</string>
+    <string name="step2"> <b>Step 2:</b> Hit "I" icon to see patient info.</string>
+    <string name="step3"> <b>Step 3:</b> Press "Abnormal" if you spot an abnormality, or "Normal" if you do not.</string>
+
+</resources>

@@ -1,0 +1,107 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context="com.example.imedtrainer.tab_total_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5">
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/linechart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp">
+
+
+            </com.github.mikephil.charting.charts.LineChart>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="#3f51b5"
+                app:cardCornerRadius="3dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:stretchColumns="0,1">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        >
+
+                        <TextView
+                            android:text="Accuracy"
+                            android:textColor="@android:color/white"/>
+
+                        <TextView
+                            android:id="@+id/total"
+                            android:layout_marginRight="10dp"
+                            android:gravity="right"
+                            android:text="80%"
+                            android:textColor="@android:color/white"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        >
+
+                        <TextView
+                            android:text="Streak"
+                            android:textColor="@android:color/white"/>
+
+                        <TextView
+                            android:id="@+id/correct"
+                            android:layout_marginRight="10dp"
+                            android:gravity="right"
+                            android:text="50"
+                            android:textColor="@android:color/white"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        >
+
+                        <TextView
+                            android:text="Frequency"
+                            android:textColor="@android:color/white"/>
+
+                        <TextView
+                            android:id="@+id/wrong"
+                            android:layout_marginRight="10dp"
+                            android:gravity="right"
+                            android:text="5 questions/day"
+                            android:textColor="@android:color/white"/>
+                    </TableRow>
+                </TableLayout>
+            </android.support.v7.widget.CardView>
+            <!--</LinearLayout>-->
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
+
